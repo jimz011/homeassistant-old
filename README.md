@@ -1,36 +1,11 @@
-# Home Assistant 0.94.1 compatible Lovelace setup.
+# PLEASE USE MY NEW SETUP, THIS SETUP IS DEPRECATED. IT STILL WORKS WITHOUT PROBLEMS, THOUGH IT MIGHT BREAK IN THE NEAR FUTURE!!!! USE AS REFERENCE ONLY!
+Home Assistant 0.94.1 compatible Lovelace setup.
 My current Home Assistant install (current running version 0.94.2)
 
 ## Lovelace setup by jimzz011 May 2019 (*updated: 03/06/2019)
 #### WARNING NOTE: This lovelace setup is mainly created for smaller sized smartphones like an iPhone X. It will work perfectly fine on larger displays but spacing on the right side might be off a bit (This work has been completed as of 12/06/2019, you can expect a new release within a few days). 
 
-### Changes (03/06/2019): 
-Added missing files like configuration.yaml etc.
-
-## Introduction
-Hello fellow home assistant users, I have started using Home Assistant almost a year ago and I absolutely love it. It is very addictive (as I think many of the people viewing this will know that feeling). Anyways I had done some basic HTML in the early 2000's but that was basically it. So I went into this software and this is what I have got to share. Bare in mind that I am just an amateur hobbyist that has no clue of what he's writing but I just try to read up on the community forums. It is not always as easy as it sounds knowing that Home Assistant changes fast, and I mean really fast. Things written down 2 months ago might already be outdated. So this is the code I came up with messing around with it and it works pretty good :P, ofcourse this is a work in progress and I will try to better the code, make it cleaner and look for details. For now I hope someone can make use of this.
-
-### Screenshots and Video
-
-Screenshot Summary (find more screenshots in the screenshots folder with the rest of the files):
-
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/1.jpg" width="300" height="650">
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/2.jpg" width="300" height="650">
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/3.jpg" width="300" height="650">
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/4.jpg" width="300" height="650">
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/5.jpg" width="300" height="650">
-
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/red1.jpg" width="300" height="650">
-<img src="https://github.com/jimz011/homeassistant/blob/master/screenshots/red2.jpg" width="300" height="650">
-
-#### Don't stop here! Watch the video!
-There is SOO much going on in just 5 views that I can't possibly throw all the screenshots here without making this document unreadable. Please refer to the screenshots folder for more screenshots OR watch the video below which will give you the grand tour into this setup!
-
-Video: CLICK ON THE IMAGE TO START VIDEO
-
-[![Watch Video](https://img.youtube.com/vi/NFj7gwNAYPg/0.jpg)](https://youtu.be/NFj7gwNAYPg) 
-
-sorry for the bad filming, I had to use accessibility tools to show you where I am actually pressing or it might get really confusing. This also meant it really limited my way of interacting with the device and thus making some errors sometimes. You will have to forgive me on that.
+### REMEMBER HOW I SAID IN THE FIRST LINE THAT YOU SHOULD STOP USING THIS SETUP? WELL HERE IS A REMINDER, DO NOT USE THIS ANYMORE. USE THE NEW CODE INSTEAD. https://github.com/jimz011/homeassistant
 
 ### How to use
 
@@ -79,19 +54,6 @@ Custom Components:
 * [Sonarr-Upcoming-Media](https://github.com/custom-components/sensor.sonarr_upcoming_media) - Required to use with Upcoming Media Card.
 * [Radarr-Upcoming-Media](https://github.com/custom-components/sensor.radarr_upcoming_media) - Required to use with Upcoming Media Card.
 * [XboxOne](https://github.com/hunterjm/hassio-addons/tree/master/xboxone) - Xbox One Component to control you Xbox one from Home Assistant
-
-### TO DO (*updated: 12/06/2019) *Some categories have a work completed sign, expect this to be uploaded soon!
-- Global theming to have the ability to have themes change dynamically, in automations and per user. This will include a day and night theme ###in Progress
-- Cleaning up and converting card-modder to card-mod and useful-markdown-card to markdown-mod ###Currently in progress
-- Scenes (continue the testing of my automations and where needed change) ###Postponed for later evaluation
-- Birthdays ###Work Completed
-- Xiaomi Roborock s55 Vacuum ###Work Completed
-- Xiaomi Plantsensor Cards ###Waiting for Sensors to Arrive
-- Energy Consumption Graphs ###Postponed to a future release
-- Correct spacing for larger phone screens ###Work Completed
-- Other graphs related to servers/computers etc. ###Postponed to a future release
-- Rework climate view to accomodate more information ###in Progress
-- And many more, which I can't think of at the moment ###Always in Progress
 
 ### Questions?
 
